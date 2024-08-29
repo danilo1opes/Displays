@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Flex-wrap</title>
+  </head>
+  <body>
+    <!-- Define se os itens devem quebrar ou não a linha. Por padrão eles não quebram linha, isso faz com que os flex itens sejam compactados além do limite do conteúdo.
+
+    Essa é geralmente uma propriedade que é quase sempre definida como flex-wrap: wrap; Pois assim quando um dos flex itens atinge o limite do conteúdo, o último item passa para a coluna debaixo e assim por diante. -->
+    <h1>flexbox</h1>
+    <section class="container flex">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </section>
+
+    <h1>flexbox</h1>
+    <section class="container flex">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </section>
+
+    <h1>flexbox</h1>
+    <section class="container flex flex-wrap">
+      <div class="item">teste1</div>
+      <div class="item">teste2</div>
+      <div class="item">teste3</div>
+      <div class="item">teste4</div>
+      <div class="item">teste5</div>
+      <div class="item">teste6</div>
+      <div class="item">teste7</div>
+    </section>
+
+    <h1>flexbox</h1>
+    <section class="container flex">
+      <div class="item flex-item-1">teste1</div>
+      <div class="item flex-item-1">teste2</div>
+      <div class="item flex-item-1">teste3</div>
+    </section>
+
+    <h1>flex-wrap: wrap-reverse;</h1>
+    <section class="container-wrap wrap-reverse">
+      <div class="item-wrap">TesteDoItem1</div>
+      <div class="item-wrap">TesteDoItem2</div>
+      <div class="item-wrap">TesteDoItem3</div>
+    </section>
+  </body>
+</html>
