@@ -6,6 +6,10 @@ Bem-vindo ao repositório sobre **CSS Flexbox** e **CSS Grid**! Este repositóri
 
 Este repositório tem como objetivo ensinar os conceitos básicos e avançados do Flexbox e do Grid, dois dos principais métodos de layout em CSS. Através de exemplos simples e explicativos dois sites foram criados com o intuito de mostrar cada propriedade e suas funcionalidades "flexblog e WildBeast".
 
+## Projeto
+
+Você pode ver um exemplo prático de uso de Flexbox e Grid no [Flexblog Project](https://flexblogproject.netlify.app/) e [WildBeast Project](https://wildbeastproject.netlify.app/).
+
 ## Índice
 
 1. [Introdução ao Flexbox](#introdução-ao-flexbox)
