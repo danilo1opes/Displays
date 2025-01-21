@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script>
+      document.documentElement.className = ' js';
+    </script>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit+no"
@@ -18,11 +21,11 @@
     <div class="estrutura">
       <header class="header">
         <a href="#" class="logo"><img src="wildbeast.svg" alt="WildBeast" /></a>
-        <nav>
+        <nav class="js-menu">
           <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Animais</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#animais">Animais</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
       </header>
@@ -94,7 +97,7 @@
           Alasca, Canadá,[8] e na antiga União Soviética.
         </p>
 
-        <blockquote class="citacao col-wide">
+        <blockquote class="citacao col-wide" id="sobre">
           <p>
             “Há algo no uivar do lobo que tira um homem do aqui e agora e o
             transporta para uma floresta da mente.”
@@ -125,7 +128,7 @@
           </p>
         </div>
 
-        <img class="col-wide" src="img/wolf3.jpg" alt="Wolf 3" />
+        <img class="col-wide" src="img/wolf3.jpg" alt="Wolf 3" id="animais" />
       </main>
 
       <aside class="anuncios">
