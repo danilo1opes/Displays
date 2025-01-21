@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      document.documentElement.className = ' js';
+    </script>
     <title>FlexBlog</title>
     <meta charset="UTF-8" />
     <meta
@@ -28,12 +31,12 @@
         <div class="menu-logo">
           <a href="#">FlexBlog</a>
         </div>
-        <nav class="menu-nav">
+        <nav class="menu-nav js-menu">
           <ul>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#produtos">Produtos</a></li>
             <li><a href="#preco">Preço</a></li>
-            <li><a href="#preco">Qualidade</a></li>
+            <li><a href="#qualidade">Qualidade</a></li>
           </ul>
         </nav>
       </div>
@@ -186,5 +189,7 @@
     <footer class="footer">
       <p>FlexBlog © Todos os direitos reservados.</p>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
